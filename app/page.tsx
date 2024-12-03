@@ -1,7 +1,6 @@
 'use client'
 import { useState } from "react";
-import Image from "next/image";
-import { count, log } from "console";
+
 
 export default function Home() {
 const [number, setnumber] = useState(0)  
