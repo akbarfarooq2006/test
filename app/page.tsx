@@ -39,6 +39,9 @@ function outer(){
       className="outline-none rounded-xl px-4 py-2 border-[1px] border-green-400"
       onChange={(e)=>{
        console.log(e.target.value);
+
+       console.log('ak');
+       
        
         
       }}
